@@ -9,7 +9,7 @@ const MYOrders = () => {
   console.log(email);
   console.log(orders);
   useEffect(() => {
-    fetch(`http://localhost:5000/myOrders/${email}`)
+    fetch(`https://car6666.herokuapp.com/myOrders/${email}`)
       .then((res) => res.json())
       .then((result) => setOrders(result));
   }, [isDeleted]);
@@ -19,7 +19,7 @@ const MYOrders = () => {
       "Are you sure you want to delete this order?"
     );
     if (proceed) {
-      fetch(`http://localhost:5000/deleteOrders/${id}`, {
+      fetch(`https://car6666.herokuapp.com/deleteOrders/${id}`, {
         method: "DELETE",
         headers: { "content-Type": "application/json" },
       })

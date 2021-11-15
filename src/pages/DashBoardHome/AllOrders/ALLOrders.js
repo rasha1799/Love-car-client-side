@@ -10,7 +10,7 @@ const AllOrders = () => {
   console.log(orders);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/allOrders`)
+    fetch(`https://car6666.herokuapp.com/allOrders`)
       .then((res) => res.json())
       .then((result) => setOrders(result));
   }, [isDeleted]);
@@ -19,7 +19,7 @@ const AllOrders = () => {
       "Are you sure you want to delete this order?"
     );
     if (proceed) {
-      fetch(`http://localhost:5000/deleteOrders/${id}`, {
+      fetch(`https://car6666.herokuapp.com/deleteOrders/${id}`, {
         method: "DELETE",
         headers: { "content-Type": "application/json" },
       })

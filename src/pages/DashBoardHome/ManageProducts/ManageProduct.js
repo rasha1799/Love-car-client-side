@@ -6,7 +6,7 @@ const ManageProduct = () => {
   const [isDeleted, setIsDeleted] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/services`)
+    fetch(`https://car6666.herokuapp.com/services`)
       .then((res) => res.json())
       .then((result) => setProducts(result));
   }, [isDeleted]);
@@ -16,7 +16,7 @@ const ManageProduct = () => {
       "Are you sure you want to delete this product?"
     );
     if (proceed) {
-      fetch(`http://localhost:5000/deleteProducts/${id}`, {
+      fetch(`https://car6666.herokuapp.com/deleteProducts/${id}`, {
         method: "DELETE",
         headers: { "content-Type": "application/json" },
       })

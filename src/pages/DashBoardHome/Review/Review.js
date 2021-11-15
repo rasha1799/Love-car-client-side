@@ -9,7 +9,7 @@ const Review = () => {
   const onSubmit = (data) => {
     console.log(data);
 
-    axios.post("http://localhost:5000/review", data).then((res) => {
+    axios.post("https://car6666.herokuapp.com/review", data).then((res) => {
       if (res.data.insertedId) {
         alert("added successfully");
         reset();

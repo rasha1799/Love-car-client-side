@@ -16,7 +16,7 @@ const Booking = () => {
   const { user } = useAuth();
   const email = user.email;
   const onSubmit = (data) => {
-    fetch(`http://localhost:5000/myOrders/${email}`)
+    fetch(`https://car6666.herokuapp.com/myOrders/${email}`)
       .then((response) => response.json())
       .then((data) => {
         setOrders(data);
@@ -24,12 +24,14 @@ const Booking = () => {
     data.order = orders;
     console.log(orders);
 
-    axios.post("http://localhost:5000/addOrdersForm", data).then((res) => {
-      if (res.data.insertedId) {
-        alert("added successfully");
-        reset();
-      }
-    });
+    axios
+      .post("https://car6666.herokuapp.com/addOrdersForm", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          alert("added successfully");
+          reset();
+        }
+      });
   };
   return (
     <div>

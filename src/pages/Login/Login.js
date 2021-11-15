@@ -17,7 +17,7 @@ import useAuth from "../../hooks/useAuth";
 import "./Login.css";
 
 const Login = () => {
-  const { signInWithGoogle, logInUser, user, authError, isLoading } = useAuth();
+  const { signInWithGoogle, loginUser, user, authError, isLoading } = useAuth();
   const location = useLocation();
   const history = useHistory();
 
@@ -34,7 +34,7 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    logInUser(email, password, location, history);
+    loginUser(email, password, location, history);
   };
 
   const handleGoogleLogin = () => {

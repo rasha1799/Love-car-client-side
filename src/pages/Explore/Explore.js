@@ -8,7 +8,7 @@ const Explore = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/services")
+    fetch("https://car6666.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
@@ -18,7 +18,7 @@ const Explore = () => {
     const data = services[index];
     console.log(data);
     data.email = user.email;
-    fetch("http://localhost:5000/addOrders", {
+    fetch("https://car6666.herokuapp.com/addOrders", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
