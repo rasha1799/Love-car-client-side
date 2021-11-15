@@ -5,6 +5,7 @@ const AllOrders = () => {
   const { user } = useAuth();
   const [orders, setOrders] = useState([]);
   const [isDeleted, setIsDeleted] = useState(null);
+  const [status, setStatus] = useState("");
   const email = user.email + "";
   console.log(orders);
 
@@ -33,6 +34,7 @@ const AllOrders = () => {
     }
     console.log(id);
   };
+  const statusUpdate = () => {};
   return (
     <div>
       <h2>Total Orders:{orders.length}</h2>
@@ -41,6 +43,12 @@ const AllOrders = () => {
           <li>
             Email: {order.email} <br /> Order ID: {order._id}
             <button onClick={() => handleDelete(order._id)}>Delete</button>
+            <button
+              style={{ backgroundColor: "red" }}
+              onClick={() => statusUpdate(order._id)}
+            >
+              Pending
+            </button>
           </li>
         ))}
       </ui>
