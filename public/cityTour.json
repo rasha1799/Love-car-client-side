@@ -1,0 +1,72 @@
+[
+    {
+      "image": "https://i.ibb.co/NNmSvcQ/car1.jpg",
+      "name":"Toyota Highlander",
+      "description": "The Toyota Highlander, also known as the Toyota Kluger , is a mid-size crossover SUV produced by Toyota. It is built on the same platform as the Camry.",
+    
+      "price":39977
+    },
+    {
+      "image": "https://i.ibb.co/WsgF0yg/car2.jpg",
+      "name": "Toyota 4Runner",
+      "description": "The Toyota 4Runner is a compact, later mid-size sport utility vehicle produced by the Japanese manufacturer Toyota and sold throughout the world.",
+      
+      "price": 85000
+    },
+    {
+      "image": "https://i.ibb.co/5jvTMh1/car3.jpg",
+      "name": "Form F 150",
+      "description": "Ford F-150 Lightning electric pickup — For 2018, the F-150 shifted from the long-running three-bar design used on Ford trucks to the two-bar design.",
+      
+      "price": 50000
+    },
+    {
+      "image": "https://i.ibb.co/12PFqWc/car4.jpg",
+      "name": "Dodge Grand Caravam",
+      "description": "Dodge Grand Caravan and its shorter-wheelbase counterpart, Dodge Caravan, have a storied history among Dodge Brand models. Debuting in 1984, Dodge Carava",
+      
+      "price": 20000
+    },
+    {
+      "image": "https://i.ibb.co/0GSYXdN/car5.jpg",
+      "name": "Toyota Tundra",
+      "description": "The all-new Tundra TRD Pro is built for the great outdoors. Featuring 18-in. BBS® 150 forged alloy wheels wrapped in all-terrain tires, an off-road suspension ",
+      
+      "price": 23557
+    },
+    {
+      "image": "https://i.ibb.co/NZg3H8z/car6.jpg",
+      "name": "Ford Expedition MAX",
+      "description": "Offered in regular- and extended-length Max form, the Ford Expedition full-size SUV seats five people in two rows or up to eight people in three rows",
+      
+      "price": 50000
+    },
+    {
+      "image": "https://i.ibb.co/9hqmRxH/car7.jpg",
+      "name": "Mazda CX-5",
+      "description": "Drawing inspiration from our Kodo design philosophy, the Mazda CX-5 2.5 Turbo Signature takes its sleek exterior styling to new levels. With a redesigned front",
+      
+      "price": 200
+    },
+    {
+      "image": "https://i.ibb.co/9bmgvvn/car8.jpg",
+      "name": "Ford F-150",
+      "description": "The Ford F-150 is a full-size light-duty pickup truck, and it has dominated new vehicle sales in the United States for decades. Part of its widespread appeal is ",
+      
+      "price": 20000
+    },
+    {
+      "image": "https://i.ibb.co/3WC7THp/car9.jpg",
+      "name": "Chevrolet Silverado 1500",
+      "description": "Explore the hardworking, smart, bigger, yet lighter 2021 Silverado 1500, now available with a diesel engine that helps make it the most fuel-efficient ",
+      
+      "price": 46664
+    },
+    {
+      "image": "https://i.ibb.co/s5gyQVt/car10jpg.jpg",
+      "name": "Ram 1500",
+      "description": " Inside, the Ram 1500 has supremely functional cubby stowage and cavernous passenger space. Higher trims add upscale materials and creature",
+      
+      "price": 20053
+    }
+  ]
